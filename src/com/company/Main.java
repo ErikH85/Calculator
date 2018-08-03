@@ -12,7 +12,7 @@ public class Main {
         String[] operator = {"Addition", "Subtraction", "Multiplication", "Division", "Squareroot"};
         int option = 0;
 
-        option = JOptionPane.showOptionDialog(null, "Välj räknesätt", "Välj räknesätt",
+        option = JOptionPane.showOptionDialog(null, "Choose operator", "Choose operator",
                 JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE, null, operator, operator[4]);
 
 
