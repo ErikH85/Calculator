@@ -1,7 +1,7 @@
 package com.company;
 
 public class Squareroot {
-    public double squareroot(double a) {
+    public static double squareroot(double a) {
         return Math.sqrt(a);
     }
 }
